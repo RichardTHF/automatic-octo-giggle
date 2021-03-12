@@ -1,5 +1,5 @@
 # Web Server Applications 
-## Group 2 and 3 are the best
+## Group 2 and 3 are the best but group 1 are great also!
 Group 2 and 3 Web Server Applications Demo
 
 This is a readme 

@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.top {
+  position: relative;
+}
+
+.top::after {
+  content: "";
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.top-bar-bg {
+  background-color: rgba(50, 50, 50, 0.4);
+  height: 70px;
+  padding: 5px 0;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo div {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 0 0 0 12px;
+  height: 60px;
+  line-height: 80px;
+  color: black;
+}
+
+.logo img {
+  width: 60px;
+  height: 50px;
+  margin-top: 5px;
+}
+
+nav a {
+  color: white;
+  line-height: 60px;
+  font-size: 18px;
+  padding: 40px;
+}
+
+nav a:hover {
+  color: rgb(251, 213, 59)
+}
+
+.content-box {
+  padding: 100px 0 240px 0;
+  text-align: center;
+}
+
+.content-box h1 {
+  line-height: 100px;
+  font-size: 50px;
+}
+
+.content-box p {
+  font-size: 18px;
+}
+
+/* 顶部结束 */
+
+.card-title {
+  text-align: center;
+  padding: 50px;
+}
+
+.card-title p {
+  font-size: 16px;
+}
+
+.card {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  box-shadow: 1px 1px 7px rgba(50, 50, 50, 0.3);
+}
+
+.card-img {
+  width: 400px;
+}
+
+.card-img img {
+  width: 100%;
+}
+
+.card-content {
+  flex: 1;
+  widows: 500px;
+  padding: 30px;
+}
+
+.card-content h2 {
+  font-size: 24px;
+}
+
+.card-content p {
+  font-size: 14px;
+  line-height: 2em;
+}
+
+.card-content .btn {
+  background-color: rgb(248, 180, 38);
+  color: white;
+  width: 120px;
+  text-align: center;
+  padding: 7px 0;
+  border-radius: 10px;
+  float: right;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.card-content .btn:hover {
+  background-color: rgb(251, 213, 59);
+}
+
+/* requirements */
+
+.requirements {
+  margin: 70px 0;
+  padding: 30px 0;
+  background-color: rgb(251, 191, 48);
+  color: white;
+}
+
+.requirements p {
+  line-height: 2em;
+  width: 50%;
+  font-size: 18px;
+}
+
+.requirements .btn {
+  background-color: white;
+  color: black;
+  width: 120px;
+  text-align: center;
+  padding: 7px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.requirements .btn:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+/* album */
+
+.album {
+  text-align: center;
+}
+
+.album p {
+  font-size: 18px;
+  line-height: 2em;
+}
+
+.album-img {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.album-img div {
+  width: 33%;
+  position: relative;
+}
+
+.album-img div::after {
+  content: "MORE INFORMATIONS";
+  color: rgb(248, 180, 38);
+  width: 100%;
+  text-align: center;
+  left: 0;
+  bottom: 10px;
+  position: absolute;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.album-img img {
+  width: 100%;
+}
+
+/* from */
+.form-bg {
+  background-image: url(../images/form-bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  position: relative;
+}
+
+.form-bg::after {
+  content: ' ';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(251, 213, 59, 0.7);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+.form-bg .container {
+  position: relative;
+}
+
+.form-bg h1 {
+  color: white;
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+}
+
+.form-box {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  top: 150px;
+}
+
+.form-box form {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.form-box form input {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding-left: 18px;
+  font-size: 18px;
+}
+
+.form-box form textarea {
+  width: 100%;
+}
+
+.from-img {
+  width: 460px;
+}
